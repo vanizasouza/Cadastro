@@ -1,0 +1,121 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f7f7f6;
+    height: 4000px;
+}
+
+input, label, textarea {
+    display: block;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+
+
+p {
+    font-family: Helvetica;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+.container {
+    background: #878fff;
+    width: 350px;
+    margin: 50px auto 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+}
+
+
+input, textarea {
+    border-radius: 20px;
+    background: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    outline: none;
+    letter-spacing: .1em;
+}
+
+
+input.width100, textarea {
+    width: 90%;
+}
+
+input, textarea {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+
+.input-texto input {
+    height: 30px;
+}
+
+textarea {
+    padding-top: 10px;
+}
+
+label {
+    padding: 20px 0 4px 0;
+    clear: both;
+}
+
+.div-input-radio label {
+    padding: 10px 0;
+}
+
+.div-input-radio {
+    float: left;
+    width: 200px;
+}
+
+
+.paises {
+    font-weight: normal;
+    color: #fff;
+}
+
+.div-select {
+    float: left;
+}
+
+select {
+    margin: 10px auto 0 auto ;
+    width: 128px;
+    height: 30px;
+}
+
+
+.btn {
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: helvetica;
+    font-weight: bold;
+    background: #e9c46a;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.btn:hover {
+    background: #ffb703;
+    color: #fff;
+    transition: .5s all;
+    font-size: 14px;
+}
+
